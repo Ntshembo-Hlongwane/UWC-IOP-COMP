@@ -1,0 +1,30 @@
+This is my first attempt when I tried to use MongoDb but it was not working so I thought I try firebase but the is the
+function I was using in my server to save in DB
+
+
+
+// MongoClient.connect(
+//   url,
+//   { useNewUrlParser: true, useUnifiedTopology: true },
+//   (error, client) => {
+//     client.Collections("lecturevideos").insertOne({
+//       lecturer: lecturerName,
+//       module: moduleName,
+//       video: file,
+//     });
+//     (error, response) => {
+//       if (error) {
+//         return console.log(`Error: ${error}`);
+//       }
+//       console.log(`Success: ${response}`);
+//     };
+
+//     client.close();
+//   }
+// );
+
+// response.send({
+//   message: "Lecture has been Uploading",
+// });
+// });
+// request.pipe(busboy);
